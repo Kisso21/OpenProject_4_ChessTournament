@@ -5,7 +5,7 @@ Il s'agit d'un gestionnaire de tournois d'échecs.
 Commencez tout d'abord par installer Python.
 Lancez ensuite la console, placez vous dans le dossier de votre choix puis clonez ce repository:
 ```
-git clone https://github.com/FlorianMgs/OC_P4_ChessTournament.git
+git clone https://github.com/Kisso21/OpenProject_4_ChessTournament.git
 ```
 Placez vous dans le dossier OC_P4_ChessTournament, puis créez un nouvel environnement virtuel:
 ```

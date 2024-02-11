@@ -34,7 +34,7 @@ class ViewTournament:
     # Affichage de tous les tournois
     def display_list_tournament(self):
         try:
-            with open("tournament.json", "r") as json_file:
+            with open("BDDTournament.json", "r") as json_file:
                 infoTemp = json.load(json_file)
                 # Vérifier si la liste de tournois est vide ou non
                 if not infoTemp:

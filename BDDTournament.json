@@ -1,0 +1,557 @@
+[
+  {
+    "Nom": "DijonCup",
+    "Location": "Dijon",
+    "Date de debut": "09-02-2024-22:54",
+    "Date de fin": "",
+    "Nombre de rounds": 4,
+    "Tour actuel": 4,
+    "Liste participants": [
+      {
+        "Nom": "Roux",
+        "Prenom": "Quentin",
+        "Date de Naissance": "01/11/1992",
+        "Id": "FR111"
+      },
+      {
+        "Nom": "Boyer",
+        "Prenom": "Jemerie",
+        "Date de Naissance": "17/08/1994",
+        "Id": "FR222"
+      }
+    ],
+    "Liste points": [
+      {
+        "Nom": "Roux",
+        "Prenom": "Quentin",
+        "Date de Naissance": "01/11/1992",
+        "Id": "FR111",
+        "Points": 1
+      },
+      {
+        "Nom": "Boyer",
+        "Prenom": "Jemerie",
+        "Date de Naissance": "17/08/1994",
+        "Id": "FR222",
+        "Points": 2
+      }
+    ],
+    "Match jouer": [
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0
+        },
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 1
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0
+        },
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 1
+        }
+      ],
+      [
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 2
+        },
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 1
+        }
+      ],
+      [
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 2
+        },
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 1
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 1
+        },
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 2
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 1
+        },
+        {
+          "Nom": "Boyer",
+          "Prenom": "Jemerie",
+          "Date de Naissance": "17/08/1994",
+          "Id": "FR222",
+          "Points": 2
+        }
+      ]
+    ],
+    "Tour": {
+      "Round 1": {
+        "Debut": "09-02-2024-22:54",
+        "Fin": "09-02-2024-22:54",
+        "Match": [
+          {
+            "Roux Quentin": 0,
+            "Boyer Jemerie": 1
+          }
+        ]
+      },
+      "Round 2": {
+        "Debut": "09-02-2024-23:13",
+        "Fin": "09-02-2024-23:13",
+        "Match": [
+          {
+            "Boyer Jemerie": 0,
+            "Roux Quentin": 1
+          }
+        ]
+      },
+      "Round 3": {
+        "Debut": "09-02-2024-23:13",
+        "Fin": "09-02-2024-23:13",
+        "Match": [
+          {
+            "Roux Quentin": 0,
+            "Boyer Jemerie": 1
+          }
+        ]
+      },
+      "Round 4": {
+        "Debut": "",
+        "Fin": "",
+        "Match": []
+      }
+    },
+    "Description": ""
+  },
+  {
+    "Nom": "TetinCup",
+    "Location": "Chez Tetin",
+    "Date de debut": "09-02-2024-23:04",
+    "Date de fin": "09-02-2024-23:10",
+    "Nombre de rounds": 4,
+    "Tour actuel": 5,
+    "Liste participants": [
+      {
+        "Nom": "Tetin",
+        "Prenom": "Tetin",
+        "Date de Naissance": "09/06/1998",
+        "Id": "PAYSAN21"
+      },
+      {
+        "Nom": "Roux",
+        "Prenom": "Quentin",
+        "Date de Naissance": "01/11/1992",
+        "Id": "FR111"
+      },
+      {
+        "Nom": "Fizz",
+        "Prenom": "Janik",
+        "Date de Naissance": "06/05/1994",
+        "Id": "PARIS92"
+      },
+      {
+        "Nom": "Gomes",
+        "Prenom": "Alexandra",
+        "Date de Naissance": "15/04/1992",
+        "Id": "FR333"
+      }
+    ],
+    "Liste points": [
+      {
+        "Nom": "Fizz",
+        "Prenom": "Janik",
+        "Date de Naissance": "06/05/1994",
+        "Id": "PARIS92",
+        "Points": 2.5
+      },
+      {
+        "Nom": "Tetin",
+        "Prenom": "Tetin",
+        "Date de Naissance": "09/06/1998",
+        "Id": "PAYSAN21",
+        "Points": 2.5
+      },
+      {
+        "Nom": "Gomes",
+        "Prenom": "Alexandra",
+        "Date de Naissance": "15/04/1992",
+        "Id": "FR333",
+        "Points": 2.5
+      },
+      {
+        "Nom": "Roux",
+        "Prenom": "Quentin",
+        "Date de Naissance": "01/11/1992",
+        "Id": "FR111",
+        "Points": 0.5
+      }
+    ],
+    "Match jouer": [
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        },
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        }
+      ],
+      [
+        {
+          "Nom": "Fizz",
+          "Prenom": "Janik",
+          "Date de Naissance": "06/05/1994",
+          "Id": "PARIS92",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Tetin",
+          "Prenom": "Tetin",
+          "Date de Naissance": "09/06/1998",
+          "Id": "PAYSAN21",
+          "Points": 2.5
+        }
+      ],
+      [
+        {
+          "Nom": "Gomes",
+          "Prenom": "Alexandra",
+          "Date de Naissance": "15/04/1992",
+          "Id": "FR333",
+          "Points": 2.5
+        },
+        {
+          "Nom": "Roux",
+          "Prenom": "Quentin",
+          "Date de Naissance": "01/11/1992",
+          "Id": "FR111",
+          "Points": 0.5
+        }
+      ]
+    ],
+    "Tour": {
+      "Round 1": {
+        "Debut": "09-02-2024-23:10",
+        "Fin": "09-02-2024-23:10",
+        "Match": [
+          {
+            "Roux Quentin": 0.5,
+            "Fizz Janik": 0.5
+          },
+          {
+            "Tetin Tetin": 0.5,
+            "Gomes Alexandra": 0.5
+          }
+        ]
+      },
+      "Round 2": {
+        "Debut": "09-02-2024-23:10",
+        "Fin": "09-02-2024-23:10",
+        "Match": [
+          {
+            "Roux Quentin": 0,
+            "Fizz Janik": 1
+          },
+          {
+            "Tetin Tetin": 1,
+            "Gomes Alexandra": 0
+          }
+        ]
+      },
+      "Round 3": {
+        "Debut": "09-02-2024-23:10",
+        "Fin": "09-02-2024-23:10",
+        "Match": [
+          {
+            "Tetin Tetin": 0,
+            "Fizz Janik": 1
+          },
+          {
+            "Roux Quentin": 0,
+            "Gomes Alexandra": 1
+          }
+        ]
+      },
+      "Round 4": {
+        "Debut": "09-02-2024-23:10",
+        "Fin": "09-02-2024-23:10",
+        "Match": [
+          {
+            "Fizz Janik": 0,
+            "Tetin Tetin": 1
+          },
+          {
+            "Gomes Alexandra": 1,
+            "Roux Quentin": 0
+          }
+        ]
+      }
+    },
+    "Description": "Ben c'est bien"
+  }
+]

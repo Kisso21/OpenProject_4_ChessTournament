@@ -7,7 +7,7 @@ Lancez ensuite la console, placez vous dans le dossier de votre choix puis clone
 ```
 git clone https://github.com/Kisso21/OpenProject_4_ChessTournament.git
 ```
-Placez vous dans le dossier OC_P4_ChessTournament, puis créez un nouvel environnement virtuel:
+Placez vous dans le dossier OpenProject_4_ChessTournament, puis créez un nouvel environnement virtuel:
 ```
 python -m venv env
 ```

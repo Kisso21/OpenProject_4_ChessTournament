@@ -51,7 +51,7 @@ Tournoi lancé : A chaque tour (Round) vous aurez la possibilité de lancer le r
 ### 5) Générer le rapport Flake8
 - Installez flake8 avec la commande: 
 ```
-pip intall flake8-html
+pip install flake8-html
 ```
 - Tapez la commande:
 ```

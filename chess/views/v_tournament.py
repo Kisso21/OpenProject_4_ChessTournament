@@ -1,14 +1,26 @@
+"""
+Add a description of the file
+"""
+
+# Ast buildin
+import json
+
+# then local application/library specific imports
 from models.m_tournament import Tournament
 from control.c_database import DatabaseTournament
-import json
 
 
 class ViewTournament:
+    """Affichage de tous les tours et les matchs d'un tournoi"""
 
-    # Affichage de tous les tours et les matchs d'un tournoi
+
+
     def display_list_rounds_match_tournament(self):
+        """Affichage de tous les tours et les matchs d'un tournoi"""
+
         tournamentList = ViewTournament().display_list_tournament()
         reponse = input("Quels tournois veux tu ? (entre le nom):")
+
         for tournament in tournamentList:
             if reponse == tournament["Nom"]:
                 print(
@@ -20,10 +32,12 @@ class ViewTournament:
                     for match in infoRound["Match"]:
                         print(match)
 
-    # Affichage de tous les joueurs dans un tournoi
     def display_list_players_tournament(self):
+        """    # Affichage de tous les joueurs dans un tournoi"""
+
         tournamentList = ViewTournament().display_list_tournament()
         reponse = input("Quels tournois veux tu ? (entre le nom):")
+        
         for tournament in tournamentList:
             if reponse == tournament["Nom"]:
                 listSortedPlayers = sorted(tournament["Liste participants"], key=lambda joueur: joueur['Nom'],
@@ -31,11 +45,12 @@ class ViewTournament:
                 for player in listSortedPlayers:
                     print(f"{player["Nom"]} {player["Prenom"]}")
 
-    # Affichage de tous les tournois
     def display_list_tournament(self):
+        """Affichage de tous les tournois"""
         try:
             with open("BDDTournament.json", "r") as json_file:
                 infoTemp = json.load(json_file)
+
                 # Vérifier si la liste de tournois est vide ou non
                 if not infoTemp:
                     print("Aucun tournois dans la base")
@@ -48,10 +63,12 @@ class ViewTournament:
         except FileNotFoundError:
             print("Aucun fichier trouvé")
 
-    # Affichage pour la création d'un tournoi
     def display_creation_tournament(self):
+        """# Affichage pour la création d'un tournoi"""
+
         name = input("\033[1;32mNom du tournoi: \033[0m")
         location = input("\033[1;32mLieu: \033[0m")
+        
         while True:
             nb_turn = input("\033[1;32mVeuillez entrer le nombre de tours : \033[0m")
             if nb_turn.isdigit():
@@ -60,29 +77,38 @@ class ViewTournament:
             else:
                 print("\033[1;31mVeuillez choisir un vrai chiffre\033[0m")
         tournament = Tournament(name, location, nb_turn)
+        
         return tournament
 
-    # Affichage des points de chaques participants
     def display_players_points(self, tournament):
+        """# Affichage des points de chaques participants"""
+    
         print("\033[1;34m-- LISTE DES PARTICIPANT --\033[0m\n")
+    
         for i in tournament.players_points:
             print(f"PRENOM:{i["Nom"]}\tNOM:{i["Prenom"]}\tPOINTS:{i["Points"]}\n")
 
-    # Affichage de tous les joueurs et leurs informations
+
     def display_player_in_tournament(self, tournament):
+        """ Affichage de tous les joueurs et leurs informations"""
+
         print("\033[1;34m-- LISTE DES PARTICIPANT --\033[0m\n")
         for i in tournament.player_selected:
             print(f"PRENOM:{i["Nom"]}\tNOM:{i["Prenom"]}\tDATE DE NAISSANCE:{i["Date de Naissance"]}\tID:{i["Id"]}\n")
 
-    # Affichage pour importer un joueur
+
     def display_importation_player(self):
+        """Affichage pour importer un joueur"""
+
         playerFind = False
         with open("BDDplayer.json", "r") as json_file:
             infoTemp = json.load(json_file)
             list_sorted = sorted(infoTemp, key=lambda x: x["Nom"])
             for joueur in list_sorted:
                 print(joueur)
+
         reponse = input("Selectioner l'id a importer dans le tournois :")
+        
         for joueur in infoTemp:
             if joueur["Id"] == reponse:
                 return joueur
@@ -92,9 +118,16 @@ class ViewTournament:
         if playerFind:
             print("\033[1;31mJoueur non trouvé\033[0m")
 
-    # Affichage pour charger un tournoi
     def display_tournament_loading(self):
+        """# Affichage pour charger un tournoi"""
+
         list_tournament = DatabaseTournament().CheckTournament()
+        
+        ############################################################################################################
+        #################################   A MODIFIER   ###########################################################
+        ############################################################################################################
+
+        # USE SUB FONCTION TO AVOID TOO MUCH INDENTATION
         if not list_tournament:
             pass
         else:

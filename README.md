@@ -1,6 +1,14 @@
 
 # OpenClassrooms: Projet 4: Chess Tournament
+
+
+
+⚠️ IN ENGLISH PLEASE ⚠️
+
+## About 
 Il s'agit d'un gestionnaire de tournois d'échecs.
+
+
 ## Installation:
 Commencez tout d'abord par installer Python.
 Lancez ensuite la console, placez vous dans le dossier de votre choix puis clonez ce repository:
@@ -32,21 +40,21 @@ python main.py
 ## Utilisation
 Le menu principal est divisé en 3 options.
 ### 1) Menu joueurs : 3 options
-1 - Créer un joueur : Ajoute un nouveau joueur dans la base de donnée (BDDplayer.json)
-2 - Voir les joueurs existants : Liste l'intégralité de joueurs présent dans votre base de donnée (BDDplayer.json)
-3 - Supprimer joueurs : Supprime un joueurs de votre base de donnée (BDDplayer.json)
+- Créer un joueur : Ajoute un nouveau joueur dans la base de donnée (BDDplayer.json)
+- Voir les joueurs existants : Liste l'intégralité de joueurs présent dans votre base de donnée (BDDplayer.json)
+- Supprimer joueurs : Supprime un joueurs de votre base de donnée (BDDplayer.json)
 
 ### 2) Menu tournois : 2 options
-1 - Créer un tournoi : laissez vous guider par le programme pour définir le nom , le lieu et le nombre de rounds du tournoi, une fois créer vous aurez la possibilité d'ajouter un joueur , d'importer un joueur , voir les joueurs inscrits , une fois que la configuration du tournoi est bonne vous pouvez lancer le tournoi
+- Créer un tournoi : laissez vous guider par le programme pour définir le nom , le lieu et le nombre de rounds du tournoi, une fois créer vous aurez la possibilité d'ajouter un joueur , d'importer un joueur , voir les joueurs inscrits , une fois que la configuration du tournoi est bonne vous pouvez lancer le tournoi
 Tournoi lancé : A chaque tour (Round) vous aurez la possibilité de lancer le round , sauvegarder le tournoi ou quitter le tournoi en sauvegardant le tournoi actuel.
 
-2 - Charger un tournoi : Le programme permet de charger un tournoi (non terminé) des différents tournoi sauvegarder dans BDDTournament.json
+- Charger un tournoi : Le programme permet de charger un tournoi (non terminé) des différents tournoi sauvegarder dans BDDTournament.json
 
 ### 3) Menu rapport
-1 - Rapport de tous les joueurs : Liste l'intégralité de joueurs présent dans votre base de donnée (BDDplayer.json)
-2 - Rapport liste tournois : Liste l'intégralité des tournois présent dans votre base de donnée (BDDTournament.json)
-3 - Rapport des joueurs d'un tournoi par ordre alphabétique : Liste les joueurs d'un tournoi donné par ordre alphabétique
-4 - Rapport de tous les matchs des tours d'un tournoi : Liste l'intégralité des matchs des différents tours d'un tournoi donné
+- 1 Rapport de tous les joueurs : Liste l'intégralité de joueurs présent dans votre base de donnée (BDDplayer.json)
+- 2 Rapport liste tournois : Liste l'intégralité des tournois présent dans votre base de donnée (BDDTournament.json)
+- 3 Rapport des joueurs d'un tournoi par ordre alphabétique : Liste les joueurs d'un tournoi donné par ordre alphabétique
+- 4 Rapport de tous les matchs des tours d'un tournoi : Liste l'intégralité des matchs des différents tours d'un tournoi donné
 
 ### 5) Générer le rapport Flake8
 - Installez flake8 avec la commande: 

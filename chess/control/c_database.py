@@ -1,6 +1,9 @@
 import json
 
 
+# c_database.py in controls???? 
+
+
 class DatabasePlayer:
 
     # Ajout d'un joueur dans le fichier JSON des joueurs

@@ -18,6 +18,8 @@
 - good uese of try excepts 
 - avoid to much indetantion (4/6 MAX)
 - commit history ?!?
+- NEVER USE LAST python VERSION
+- Ok  - why not track of db - but not update of db from local to remote 
 
 ### Nice to have
 - README.md in english (good habits)

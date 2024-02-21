@@ -17,6 +17,7 @@
 - All code and comments IN ENGLISH
 - good uese of try excepts 
 - avoid to much indetantion (4/6 MAX)
+- commit history ?!?
 
 ### Nice to have
 - README.md in english (good habits)
